@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Letní intenzivní kurz - Nový Malín v kostce</title>
+    <title>Letní LEGO kemp - Nový Malín v kostce</title>
     <!-- Tailwind CSS pro rychlý a čistý design -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts - hravé a moderní písmo Fredoka + čitelný Sans-serif -->
@@ -42,32 +42,58 @@
         <span>Projekt "Nový Malín v kostce" je spolufinancován <strong>Olomouckým krajem</strong></span>
     </div>
 
+    <!-- Hlavní kontejner -->
     <main class="max-w-6xl mx-auto px-4 py-8 flex-grow">
         
         <!-- HRADLO / HERO SEKCE -->
         <header class="text-center mb-12 relative">
             <div class="inline-block bg-yellow-400 text-slate-900 px-6 py-2 rounded-full font-bold text-sm md:text-base tracking-widest uppercase mb-4 shadow-sm font-kids animate-bounce">
-                Letní intenzivní kurz
+                Super letní LEGO kemp
             </div>
             <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight font-kids text-blue-600 mb-4 drop-shadow-sm">
                 Nový Malín <span class="text-red-500">v kostce!</span>
             </h1>
             <p class="text-xl md:text-2xl font-semibold text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                Stavíme místo, kde žijeme – od historie po současnost!
+                Stavíme svět kolem nás – od historie Malína přes obří stroje až po snové domečky a zahrady!
             </p>
+
+            <!-- Hlavní info: Kdy a Kde konání kempu -->
+            <div class="mt-6 max-w-2xl mx-auto bg-blue-50 border-2 border-blue-200 rounded-2xl p-4 flex flex-col sm:flex-row justify-around items-center gap-4 shadow-sm">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-red-500 rounded-xl flex items-center justify-center text-white lego-shadow">
+                        <i data-lucide="map-pin" class="w-5 h-5"></i>
+                    </div>
+                    <div class="text-left">
+                        <span class="text-xs text-slate-400 block font-bold uppercase">Místo konání</span>
+                        <strong class="text-slate-800 text-sm md:text-base">Knihovna Nový Malín</strong>
+                    </div>
+                </div>
+                <div class="h-px w-full sm:h-8 sm:w-px bg-slate-200"></div>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-yellow-400 rounded-xl flex items-center justify-center text-slate-900 lego-shadow">
+                        <i data-lucide="calendar" class="w-5 h-5"></i>
+                    </div>
+                    <div class="text-left">
+                        <span class="text-xs text-slate-400 block font-bold uppercase">Termín kempu</span>
+                        <strong class="text-slate-800 text-sm md:text-base">18. &amp; 20. srpna 2026</strong>
+                    </div>
+                </div>
+            </div>
+
             <div class="mt-6 flex flex-wrap justify-center gap-3">
                 <span class="bg-emerald-100 text-emerald-800 px-4 py-1.5 rounded-full text-sm font-bold flex items-center gap-1.5 shadow-sm">
-                    <i data-lucide="calendar" class="w-4 h-4"></i> 2 intenzivní dny
+                    <i data-lucide="calendar" class="w-4 h-4"></i> Út &amp; Čt (18. a 20. 8.)
                 </span>
                 <span class="bg-blue-100 text-blue-800 px-4 py-1.5 rounded-full text-sm font-bold flex items-center gap-1.5 shadow-sm">
-                    <i data-lucide="clock" class="w-4 h-4"></i> Celkem 6 hodin tvoření
+                    <i data-lucide="clock" class="w-4 h-4"></i> 15:00 &ndash; 18:00 (2x 3h)
                 </span>
                 <span class="bg-amber-100 text-amber-800 px-4 py-1.5 rounded-full text-sm font-bold flex items-center gap-1.5 shadow-sm">
-                    <i data-lucide="layers" class="w-4 h-4"></i> Neomezené zásoby kostek
+                    <i data-lucide="sparkles" class="w-4 h-4"></i> Od DUPLA až po TECHNIC
                 </span>
             </div>
         </header>
 
+        <!-- HLAVNÍ OBSAHOVÁ MŘÍŽKA -->
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-12">
             
             <!-- LEVÝ SLOUPEC: Informace a Zážitky -->
@@ -79,37 +105,57 @@
                     
                     <h2 class="text-2xl md:text-3xl font-extrabold mb-6 flex items-center gap-3 text-blue-600 font-kids relative z-10">
                         <i data-lucide="sparkles" class="w-8 h-8 text-yellow-400 fill-yellow-400"></i>
-                        Co společně podnikneme?
+                        Co všechno zažijeme a postavíme?
                     </h2>
 
                     <div class="space-y-6 relative z-10">
                         <div class="flex gap-4">
                             <div class="flex-shrink-0 w-12 h-12 bg-red-500 rounded-xl flex items-center justify-center text-white font-bold text-xl lego-shadow">
-                                1
+                                <i data-lucide="home" class="w-6 h-6"></i>
                             </div>
                             <div>
-                                <h3 class="text-lg font-bold text-slate-800">Postavíme náš domov z kostek!</h3>
-                                <p class="text-slate-600">Ponoříme se do příběhů Nového Malína. Společně z tisíců LEGO® kostek postavíme významné malínské stavby, domy, krajinu a oživíme historii i současnost naší obce.</p>
+                                <h3 class="text-lg font-bold text-slate-800">Společná stavba Malína a krajiny</h3>
+                                <p class="text-slate-600">Ponoříme se do příběhů Nového Malína. Společně z tisíců kostek postavíme významné malínské budovy, okolní lesy, potoky a oživíme historii obce.</p>
                             </div>
                         </div>
 
                         <div class="flex gap-4">
                             <div class="flex-shrink-0 w-12 h-12 bg-yellow-500 rounded-xl flex items-center justify-center text-slate-950 font-bold text-xl lego-shadow">
-                                2
+                                <i data-lucide="wrench" class="w-6 h-6"></i>
                             </div>
                             <div>
-                                <h3 class="text-lg font-bold text-slate-800">Práce s historickými plány a tablety</h3>
-                                <p class="text-slate-600">Děti budou pracovat se zapůjčenými tablety k prohlížení starých map a archivních snímků Malína. Porovnáme minulost se současností a přeneseme ji do kostek.</p>
+                                <h3 class="text-lg font-bold text-slate-800">Technika, obří stroje i hasiči!</h3>
+                                <p class="text-slate-600">Pro kluky i technické nadšence máme připravené stavění velkých strojů. Postavíme pořádné jeřáby, funkční náklaďáky, hasičská auta a prozkoumáme mechaniku ozubených kol.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-pink-500 rounded-xl flex items-center justify-center text-white font-bold text-xl lego-shadow">
+                                <i data-lucide="flower" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-slate-800">Snové domečky, příroda a design</h3>
+                                <p class="text-slate-600">Slečny a tvořivé duše si přijdou na své při navrhování úžasných domečků pro panenky, útulných pokojíčků, rozkvetlých zahrad plných květin a zvířecích výběhů.</p>
                             </div>
                         </div>
 
                         <div class="flex gap-4">
                             <div class="flex-shrink-0 w-12 h-12 bg-emerald-500 rounded-xl flex items-center justify-center text-white font-bold text-xl lego-shadow">
-                                3
+                                <i data-lucide="baby" class="w-6 h-6"></i>
                             </div>
                             <div>
-                                <h3 class="text-lg font-bold text-slate-800">Bezlimitní stavění pro každého</h3>
-                                <p class="text-slate-600">Díky štědré krajské podpoře máme obří, zbrusu nové zásoby stavebních kostek a doplňků, takže stavíme bez jakéhokoliv omezení a limitů.</p>
+                                <h3 class="text-lg font-bold text-slate-800">Pro velké i ty nejmenší (DUPLO zóna)</h3>
+                                <p class="text-slate-600">Nikoho nenecháme stranou! Starší děti mohou stavět složité LEGO Technic modely, zatímco pro ty nejmenší stavitele máme připravené bezpečné obří kostky LEGO Duplo.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-cyan-500 rounded-xl flex items-center justify-center text-white font-bold text-xl lego-shadow">
+                                <i data-lucide="scroll" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-slate-800">Archivy a mapy na tabletech</h3>
+                                <p class="text-slate-600">Budeme pracovat se zapůjčenými tablety. Vyhledáme staré plány Malína, archivní snímky a přeneseme je do naší obří LEGO makety.</p>
                             </div>
                         </div>
                     </div>
@@ -130,7 +176,7 @@
                                 <i data-lucide="home" class="w-8 h-8"></i>
                             </div>
                             <span class="font-bold text-blue-600 text-lg">SOUČASNOST</span>
-                            <p class="text-xs text-slate-500 max-w-xs mt-1">Moderní zástavba, nová hřiště, barevné střechy a silnice.</p>
+                            <p class="text-xs text-slate-500 max-w-xs mt-1">Moderní zástavba, nová hřiště, silnice a barevné střechy.</p>
                         </div>
 
                         <!-- Podklad 2: Historická mapa (ovládaná posuvníkem) -->
@@ -171,11 +217,11 @@
                         <div class="border-b border-slate-700 pb-4 flex justify-between items-center">
                             <div>
                                 <h4 class="text-sm text-slate-400 font-semibold uppercase tracking-wider">Standardní cena</h4>
-                                <p class="text-xs text-slate-400">Pro nové zvídavé účastníky</p>
+                                <p class="text-xs text-slate-400">Pro nové tvořivé účastníky</p>
                             </div>
                             <div class="text-right">
                                 <span class="text-2xl font-bold text-slate-300">1 200 Kč</span>
-                                <p class="text-[10px] text-slate-400">za celý kurz</p>
+                                <p class="text-[10px] text-slate-400">za celý kemp</p>
                             </div>
                         </div>
 
@@ -191,7 +237,7 @@
                                 </div>
                                 <div class="text-right">
                                     <span class="text-4xl font-black text-yellow-300 font-kids">300 Kč</span>
-                                    <p class="text-[11px] text-emerald-300 font-bold">za celý kurz (6h)</p>
+                                    <p class="text-[11px] text-emerald-300 font-bold">za celý kemp (6h)</p>
                                 </div>
                             </div>
                         </div>
@@ -238,8 +284,8 @@
                         </div>
 
                         <div>
-                            <label class="block text-xs font-bold uppercase text-slate-500 mb-1">Jméno a věk dítěte</label>
-                            <input type="text" id="child-info" required placeholder="např. Tomáš, 8 let" class="w-full px-3 py-2 border-2 border-slate-200 rounded-xl focus:border-emerald-500 focus:ring-0 outline-none transition-colors text-sm">
+                            <label class="block text-xs font-bold uppercase text-slate-500 mb-1">Jméno, věk dítěte + co nejraději staví</label>
+                            <input type="text" id="child-info" required placeholder="např. Eliška (8 let) - domečky / Tomáš (10) - hasiči" class="w-full px-3 py-2 border-2 border-slate-200 rounded-xl focus:border-emerald-500 focus:ring-0 outline-none transition-colors text-sm">
                         </div>
 
                         <!-- Checkbox pro věrnostní cenu -->
@@ -274,7 +320,7 @@
                         <i data-lucide="toy-brick" class="w-8 h-8 text-red-500"></i>
                         Vyzkoušej si stavění na zkoušku!
                     </h2>
-                    <p class="text-slate-600 mt-1">Kliknutím na mřížku umísti barevné LEGO® kostky a postav si svůj malý model.</p>
+                    <p class="text-slate-600 mt-1">Navrhni si kousek své mozaiky. Kliknutím umístíš kostky – postavíš hasičské auto, domeček nebo kytku?</p>
                 </div>
                 <!-- Výběr barvy -->
                 <div class="flex items-center gap-2">
@@ -305,7 +351,7 @@
 
     </main>
 
-    <!-- Úspěšný odesílací modal (zobrazí se na webovém serveru) -->
+    <!-- Úspěšný odesílací modal -->
     <div id="success-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center hidden px-4">
         <div class="bg-white rounded-3xl p-8 max-w-md w-full border-4 border-emerald-500 shadow-2xl transform transition-transform scale-95 duration-300">
             <div class="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-500 mx-auto mb-6">
@@ -313,11 +359,13 @@
             </div>
             <h3 class="text-2xl font-extrabold text-slate-800 text-center font-kids mb-2">Přihláška odeslána!</h3>
             <p class="text-slate-600 text-center text-sm leading-relaxed mb-6">
-                Skvělé! Úspěšně jsme zaznamenali váš zájem. Lektor kurzu vás bude brzy kontaktovat na zadaném telefonním čísle nebo e-mailu pro potvrzení detailů a platby.
+                Skvělé! Úspěšně jsme zaznamenali váš zájem o **Letní LEGO kemp**. Lektor vás bude brzy kontaktovat na zadaném telefonu nebo e-mailu pro upřesnění detailů.
             </p>
             <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 mb-6 text-xs text-slate-500 space-y-1.5">
                 <div class="flex justify-between"><span>Rodič:</span><strong id="modal-parent" class="text-slate-700"></strong></div>
                 <div class="flex justify-between"><span>Dítě:</span><strong id="modal-child" class="text-slate-700"></strong></div>
+                <div class="flex justify-between"><span>Místo konání:</span><strong class="text-slate-700">Knihovna Nový Malín</strong></div>
+                <div class="flex justify-between"><span>Termín kempu:</span><strong class="text-slate-700">18. &amp; 20. srpna 2026 (15:00 - 18:00)</strong></div>
                 <div class="flex justify-between"><span>Kalkulovaná cena:</span><strong id="modal-price" class="text-emerald-600"></strong></div>
             </div>
             <button onclick="closeSuccessModal()" class="w-full py-3 bg-emerald-500 hover:bg-emerald-600 text-white font-bold rounded-2xl shadow-md hover:shadow-lg transition-all text-center lego-shadow">
@@ -326,20 +374,20 @@
         </div>
     </div>
 
-    <!-- Patička webu - Dotační podmínky a logo -->
+    <!-- Patička webu - Dotační podmínky a logo Olomouckého kraje -->
     <footer class="bg-slate-100 border-t-2 border-slate-200 py-8 px-4 mt-12">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
             
             <!-- Dotační text -->
             <div class="text-slate-500 text-xs md:text-sm max-w-2xl text-center md:text-left leading-relaxed">
                 <p class="font-bold text-slate-700 mb-1">O projektu "Nový Malín v kostce"</p>
-                Projekt je spolufinancován Olomouckým krajem. Díky dotační podpoře jsme zakoupili velkou zásobu nových stavebnic, tablety pro studium historických podkladů a tiskovou jednotku pro tisk materiálů.
+                Projekt je spolufinancován Olomouckým krajem. Díky dotační podpoře jsme zakoupili velkou zásobu nových stavebnic, tablety pro studium historických podkladů a tiskovou jednotku pro tisk materiálů.
             </div>
 
             <!-- Logo zastoupení Olomouckého kraje -->
             <div class="flex-shrink-0 flex flex-col items-center md:items-start gap-1 bg-white py-3 px-5 rounded-2xl border border-slate-200 shadow-sm">
                 <span class="text-[9px] font-bold text-slate-400 tracking-wider uppercase select-none">Podpořeno krajem</span>
-                <!-- Věrná vektorová kopie oficiálního loga Olomouckého kraje -->
+                <!-- Věrná vektorová kopie oficiálního loga Olomouckého kraje z obrázku image_d6553d.png -->
                 <svg class="h-10 w-auto flex-shrink-0" viewBox="0 0 360 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <!-- Červený lístek (vlevo) -->
                     <path d="M 45 39 C 33 39, 13 43, 8 45 C 4 46, 18 54, 43 45 Z" fill="#cb1c24" />
@@ -516,7 +564,9 @@
                 // Vložíme skrytá metadata pro přehlednější e-mail
                 addHiddenInput(form, "Uplatněna věrnostní sleva", loyaltyChecked ? "Ano (300 Kč)" : "Ne (1200 Kč)");
                 addHiddenInput(form, "Vypočtená cena", finalPrice);
-                addHiddenInput(form, "_subject", `Nová přihláška: Nový Malín v kostce - ${childInfo}`);
+                addHiddenInput(form, "Místo konání", "Knihovna Nový Malín");
+                addHiddenInput(form, "Termín kempu", "18. a 20. srpna 2026 (Út, Čt - 15:00 až 18:00)");
+                addHiddenInput(form, "_subject", `Nová přihláška (LEGO kemp): Nový Malín v kostce - ${childInfo}`);
                 
                 // Necháme formulář normálně odeslat a přesměrovat (nevoláme preventDefault)
                 return;
@@ -526,7 +576,7 @@
             event.preventDefault();
             
             // Vizuální zpětná vazba pro tlačítko během odesílání
-            const submitBtn = event.target.querySelector('button[type="submit"]');
+            const submitBtn = document.getElementById('submit-btn');
             const originalBtnText = submitBtn.innerHTML;
             submitBtn.disabled = true;
             submitBtn.innerHTML = `Odesílám... <i data-lucide="loader" class="w-5 h-5 animate-spin"></i>`;
@@ -543,10 +593,12 @@
                         "Jméno rodiče": parentName,
                         "E-mail rodiče": parentEmail,
                         "Telefon rodiče": parentPhone,
-                        "Informace o dítěti": childInfo,
+                        "Informace o dítěti + záliby": childInfo,
                         "Uplatněna věrnostní sleva": loyaltyChecked ? "Ano (300 Kč)" : "Ne (1200 Kč)",
                         "Vypočtená cena": finalPrice,
-                        "_subject": `Nová přihláška: Nový Malín v kostce - ${childInfo}`
+                        "Místo konání": "Knihovna Nový Malín",
+                        "Termín kempu": "18. a 20. srpna 2026 (Út, Čt - 15:00 až 18:00)",
+                        "_subject": `Nová přihláška (LEGO kemp): Nový Malín v kostce - ${childInfo}`
                     })
                 });
 
